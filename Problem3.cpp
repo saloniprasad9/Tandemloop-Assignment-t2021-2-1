@@ -24,7 +24,7 @@ int main() {
     cout << "Enter the value of x: ";
     cin >> x;
 
-    int count = (x + 1) / 2; // Calculate the number of terms to generate based on the pattern
+    int count = (x + 1) / 2;
 
     generateSeries(count);
 

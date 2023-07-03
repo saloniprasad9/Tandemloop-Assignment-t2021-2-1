@@ -46,7 +46,6 @@ int main() {
 
     unordered_map<int, int> result = getMultiplesCount(numbers, multiples);
 
-    // Print the result
     cout << "Output: " << endl;
     for (const auto& pair : result) {
         cout << pair.first << ": " << pair.second << ", ";
